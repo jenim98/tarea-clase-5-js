@@ -7,7 +7,7 @@ $saludarUsuario.onclick = function() {
     const $edadUsuario = document.querySelector('#edad-usuario').value;
 
     const resultado = $apelidoUsuario + ", " + $nombreUsuario + ", " + $segundoNombreUsuario + ", " + $edadUsuario + "años";
-    document.querySelector('#resultado').innerText = resultado;
+    document.querySelector('#resultado').value = resultado;
 
     document.querySelector('#saludo').innerText = "Bienvenido/a " + $nombreUsuario;
     
