@@ -1,9 +1,9 @@
 const $calcularTiempo = document.querySelector('#calcular');
 
 $calcularTiempo.onclick = function() {
-    const $horas = document.querySelector('.horas');
-    const $minutos = document.querySelector('.minutos');
-    const $segundos = document.querySelector('.segundos');
+    const $horas = document.querySelectorAll('.horas');
+    const $minutos = document.querySelectorAll('.minutos');
+    const $segundos = document.querySelectorAll('.segundos');
 
     let horasSumadas = 0;
     for(let i = 0; i < $horas.length; i++){
